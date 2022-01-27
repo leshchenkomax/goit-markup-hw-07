@@ -17,10 +17,21 @@
   border-radius: 4px;
   fill: var(--client-color);
   margin-top: 50px;
+  &:focus {
+    fill: var(--hover-color);
+    border-color: var(--hover-color);
+  }
+  &:hover {
+    fill: var(--hover-color);
+    border-color: var(--hover-color);
+  }
 }
-.logo-item + .logo-item {
-  margin-left: 30px;
+.logo-item {
+  & + & {
+    margin-left: 30px;
+  }
 }
+
 .client-text {
   font-style: normal;
   font-weight: bold;
@@ -29,9 +40,4 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-}
-.clients-link:focus,
-.clients-link:hover {
-  fill: var(--hover-color);
-  border-color: var(--hover-color);
 }

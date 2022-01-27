@@ -16,15 +16,16 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
+  &:hover,
+  &:focus {
+    background: #2196f3;
+    color: #ffffff;
+  }
 }
 .btn-row {
   display: flex;
 }
-.filter-button:hover,
-.filter-button:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
+
 .section-main {
   padding-top: 94px;
   margin-bottom: 50px;

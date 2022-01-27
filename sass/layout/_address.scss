@@ -6,15 +6,17 @@
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
-
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 9px;
+  &:focus {
+    color: #2196f3;
+  }
+  &:hover {
+    color: #2196f3;
+  }
 }
-.address:hover,
-.address:focus {
-  color: #2196f3;
-}
+
 .address-cont {
   padding: 0px 0px 0px 0px;
   margin-top: 20px;

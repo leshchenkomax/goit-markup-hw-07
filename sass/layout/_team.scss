@@ -57,9 +57,12 @@
   display: flex;
   justify-content: center;
 }
-.team-social-item + .team-social-item {
-  margin-left: 10px;
+.team-social-item {
+  & + & {
+    margin-left: 10px;
+  }
 }
+
 .team-social-link {
   width: 44px;
   height: 44px;
@@ -68,12 +71,16 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  &:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
+  &:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
 }
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-}
+
 .team-social-icon {
   fill: currentColor;
 }
