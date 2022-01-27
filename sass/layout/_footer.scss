@@ -1,0 +1,23 @@
+.section-footer {
+  font-weight: bold;
+  height: 252px;
+  font-size: 26px;
+  line-height: 31px;
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.color-footer {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.link-footer {
+  font-family: Raleway;
+  color: #2196f3;
+  text-decoration: none;
+}
