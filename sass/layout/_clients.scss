@@ -1,12 +1,12 @@
-.section-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-list {
+.clients__list {
   display: flex;
   justify-content: center;
 }
-.clients-link {
+.clients__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -26,13 +26,13 @@
     border-color: var(--hover-color);
   }
 }
-.logo-item {
+.clients-logo__item {
   & + & {
     margin-left: 30px;
   }
 }
 
-.client-text {
+.client__text {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;

@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -8,13 +8,13 @@
   color: #212121;
   margin-bottom: 10px;
 }
-.hero-list {
+.hero-social__list {
   display: flex;
 }
-.hero-list .hero-item:not(last-child) {
+.hero-social__list .hero-social__item:not(last-child) {
   margin-right: 30px;
 }
-.hero-item {
+.hero-social__item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -23,7 +23,7 @@
   color: var(--hero-text-color);
   width: 270px;
 }
-.hero-after-title {
+.hero-after__title {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -34,7 +34,7 @@
 .hero {
   padding-top: 94px;
 }
-.icon-antenna {
+.hero-social__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,38 +44,28 @@
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.icon-clock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
+.work-list__photo:not(last-child) {
+  margin-right: 30px;
+  position: relative;
 }
-.icon-diagram {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-}
-.icon-astronaut {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
+.work-title__text {
+  position: absolute;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  background: rgba(47, 48, 58, 0.8);
 }
 
-.work-title {
+.work__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -85,13 +75,13 @@
   padding-top: 94px;
   padding-bottom: 50px;
 }
-.section-work {
+.work {
   padding-bottom: 94px;
 }
 .about-workers {
   background-color: #f5f4fa;
 }
-.img-flax {
+.work__list {
   display: flex;
 }
 .item:not(last-child) {
@@ -101,8 +91,4 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.img-block {
-  height: auto;
 }
