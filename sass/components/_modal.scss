@@ -235,14 +235,14 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.basment-right {
+.basment-list__btn {
   margin-left: 109px;
   margin-top: -25px;
 }
 .subscribe-btn {
   display: flex;
 }
-.basment-form-btn {
+.basment-list__form {
   display: flex;
   width: 200px;
   height: 50px;
@@ -258,6 +258,6 @@
   border-radius: 4px;
   border: none;
 }
-.basment-icon {
+.basment-list__icon {
   margin-left: 10px;
 }

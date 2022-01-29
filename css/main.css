@@ -450,7 +450,7 @@ body {
   border-radius: 4px;
 }
 
-.basment-right {
+.basment-list__btn {
   margin-left: 109px;
   margin-top: -25px;
 }
@@ -459,7 +459,7 @@ body {
   display: flex;
 }
 
-.basment-form-btn {
+.basment-list__form {
   display: flex;
   width: 200px;
   height: 50px;
@@ -476,7 +476,7 @@ body {
   border: none;
 }
 
-.basment-icon {
+.basment-list__icon {
   margin-left: 10px;
 }
 
@@ -926,7 +926,7 @@ body {
   color: #2196f3;
 }
 
-.footer-social {
+.connect__social {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -936,7 +936,7 @@ body {
   color: #ffffff;
 }
 
-.social-footer-list {
+.connect-social__list {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -944,11 +944,11 @@ body {
   margin-top: 20px;
 }
 
-.social-item:not(last-child) {
+.connect-social__item:not(last-child) {
   margin-right: 10px;
 }
 
-.footer-right {
+.footer__connect {
   margin-left: 70px;
   margin-top: -25px;
 }
@@ -959,13 +959,13 @@ body {
   max-width: 100%;
 }
 
-.social-item {
+.connect-social__item {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
 
-.social-link {
+.connect-social__link {
   width: 44px;
   height: 44px;
   color: #ffffff;
@@ -975,17 +975,17 @@ body {
   border-radius: 50%;
 }
 
-.social-link:focus {
+.connect-social__link:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.social-link:hover {
+.connect-social__link:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
 
-.social-icon {
+.connect-social__icon {
   fill: currentColor;
 }
 /*# sourceMappingURL=main.css.map */
