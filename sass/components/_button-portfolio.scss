@@ -2,7 +2,7 @@
   background: #2196f3;
   color: #ffffff;
 }
-.filter-button {
+.filter__button {
   cursor: pointer;
   font-family: Raleway;
   font-weight: 500;
@@ -22,8 +22,9 @@
     color: #ffffff;
   }
 }
-.btn-row {
+.filter {
   display: flex;
+  justify-content: center;
 }
 
 .section-main {
